@@ -1,0 +1,30 @@
+.pokemon {
+    background-color: #8d9092;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 12rem;
+    text-align: center;
+    text-decoration: none;
+    color: #343a40;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.pokemon:hover {
+    background-color: #e9ecef;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.pokemon div {
+    letter-spacing: .15rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+#pokemonImg {
+    width: 100%;
+    border-bottom: 1px solid #dee2e6;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
