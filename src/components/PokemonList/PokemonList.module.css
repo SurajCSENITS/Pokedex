@@ -1,0 +1,36 @@
+.pokeList {
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.btnContainer {
+    width: 10rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: #f9f9f9;
+}
+
+.btnContainer button {
+    width: 45%;
+    margin-right: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #5993d2;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btnContainer button:hover {
+    background-color: #0056b3;
+}
